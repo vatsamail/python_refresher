@@ -13,4 +13,6 @@
 - itertools: cycle, count, accumilate, chain, dropwhile and takewhile
 
 ### func.py
-- some advance functions
+- some advance functions like: lambda functions, *args function, keyword only functions
+
+### collect.py
