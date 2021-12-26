@@ -16,3 +16,8 @@
 - some advance functions like: lambda functions, *args function, keyword only functions
 
 ### collect.py
+- namedtuple: 3D point example
+- defaultdict: for uninitialized keys
+- Counter: total items, add, subtract, and intersection
+- OrderDict: Orderdict and comparison of dictionaries
+- deque: "deck" - b/w stack and queue - Double ended Queue - append, appendleft, pop, popleft, rotate
