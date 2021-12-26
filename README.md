@@ -31,3 +31,11 @@
 - class comparisons: __gt__, __lt__, __ge__, __le__, __eq__, __ne__, ... (<, <=, ==, !=, ... )
 
 ### logy.py
+- record the events as the program executes. Like a blackbox of an airplane.
+- This is not step-by-step debugger. It can be categorized. Can be used for audit trails
+- debug, info, warn, error, critical - different logging levels
+- basic and custom logging
+- custom logging: asctime, filename, funcName, levelname, levelno, lineno, message, module, extra-dictionary
+
+### comps.py
+- Python comprehensions
