@@ -39,3 +39,6 @@
 
 ### comps.py
 - Python comprehensions
+- list comprehension with predicates
+- dictionary comprehension with condition
+- set comprehension

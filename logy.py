@@ -3,13 +3,14 @@ import logging
 extra_data = {
    'user': "Vatsa Prahallada",
     'contact': "vatsamail@gmail.com",
-}
+} # part of custom logging
+
 def myFunc():
     logging.debug("This is a debug at myFunction", extra=extra_data)
 
 def main():
-    fmtstr = "%(asctime)s: %(lineno)d: %(levelname)s: %(levelno)d: %(funcName)s: %(module)s: %(contact)s %(message)s"
-    datestr = "%Y-%m-%d %I:%M:%S %p"
+    fmtstr = "%(asctime)s: %(lineno)d: %(levelname)s: %(levelno)d: %(funcName)s: %(module)s: %(contact)s %(message)s" # part of custom logging
+    datestr = "%Y-%m-%d %I:%M:%S %p" # part of custom logging
     logging.basicConfig(
                         level=logging.DEBUG,
                         filename="logging_output.log",
