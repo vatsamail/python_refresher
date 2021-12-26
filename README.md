@@ -21,3 +21,13 @@
 - Counter: total items, add, subtract, and intersection
 - OrderDict: Orderdict and comparison of dictionaries
 - deque: "deck" - b/w stack and queue - Double ended Queue - append, appendleft, pop, popleft, rotate
+
+### classy.py
+- Classes, Objects related code. Create enumerations, default attributes, comparing classes, classes as number like behavior etc.. 
+- Enum with enum, auto, and unique
+- class string: __str__, __repr__, __format__, __bytes__
+- class attributes: __getattribute__, __getattr__, __setattr__, __delattr__, __dir__
+- class numerical: __add__, __sub__, __floordiv__, __and__, __or__, __iadd__, __iand__
+- class comparisons: __gt__, __lt__, __ge__, __le__, __eq__, __ne__, ... (<, <=, ==, !=, ... )
+
+### logy.py
