@@ -53,11 +53,15 @@ def main():
     # set - all values are unique within the set
     in_celius = [0, 10, 25, 20, 18, 40, 50, 100, 0, 10, 25, 20, 18, 40, 50, 100] # you can see the duplicates in the list
     in_fahrenheit = {(t*9/5) + 32 for t in in_celius}
+    dict_f = {t:(t*9/5) + 32 for t in in_celius}
     print("Unique Fahrenheit:", in_fahrenheit)
+    print("Fahrenheit Dictionary:", dict_f)
 
     some_string = "once upon a time there was a prince who lived in a small hut"
     chars = {x.upper() for x in some_string if not x.isspace()}
+    dict_chars = {x: x.upper() for x in some_string if not x.isspace()}
     print("Unique chars:", chars, "in a string:", some_string)
+    print("Unq chars in the form of dictionary:", dict_chars)
 
 
 
