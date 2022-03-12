@@ -20,7 +20,7 @@ def main():
 
     ) # one time effect only
     # filemode default is append
-
+    
     logging.debug("This is a debug message", extra=extra_data) # not default
     logging.info("This is an info message", extra=extra_data) # not default
     logging.warning("This is a warning message", extra=extra_data)
