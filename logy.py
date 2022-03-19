@@ -1,4 +1,5 @@
 import logging
+from logme import LogInit
 
 extra_data = {
    'user': "Vatsa Prahallada",
