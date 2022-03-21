@@ -1,8 +1,16 @@
 import logging
 from datetime import datetime
+import inspect
 
 
 def msg(logger, log_type, *args):
+    all_stack_frames = inspect.stack()
+    caller_stack_frame = all_stack_frames[1]
+    caller_name = caller_stack_frame[3]
+    print("My caller method name is", caller_name)
+    print("Call stack frame:", caller_stack_frame)
+    print("All Frames:", all_stack_frames)
+
     message = " ".join([str(i) for i in args])
     if log_type == "f":
         logger.critical(message)

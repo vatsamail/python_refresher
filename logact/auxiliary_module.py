@@ -2,7 +2,7 @@ import logging
 from report import msg
 
 # create logger
-logger = logging.getLogger("spam_application.auxiliary")
+logger = logging.getLogger("main.auxiliary")
 
 
 class Auxiliary:

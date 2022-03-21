@@ -3,11 +3,12 @@ import auxiliary_module
 from report import logInit, msg
 
 
-logger = logging.getLogger("spam_application")
+logger = logging.getLogger("main")
 
 
 def main():
     logInit(logger, "spam.log", True)
+
     msg(logger, "d", "only a debug message")
     msg(logger, "e", "on command line too")
     msg(logger, "w", "we ignore the warning")
